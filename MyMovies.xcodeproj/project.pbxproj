@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FCBB80C117207CFD00E6BC33 /* Trailer2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FCBB80BF17207CFD00E6BC33 /* Trailer2.mp4 */; };
+		FCBB80C217207CFD00E6BC33 /* Trailer3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FCBB80C017207CFD00E6BC33 /* Trailer3.mp4 */; };
+		FCBB80C517207D1500E6BC33 /* Trailer2.png in Resources */ = {isa = PBXBuildFile; fileRef = FCBB80C317207D1500E6BC33 /* Trailer2.png */; };
+		FCBB80C617207D1500E6BC33 /* Trailer3.png in Resources */ = {isa = PBXBuildFile; fileRef = FCBB80C417207D1500E6BC33 /* Trailer3.png */; };
+		FCBB80C817207DAC00E6BC33 /* Trailer1.png in Resources */ = {isa = PBXBuildFile; fileRef = FCBB80C717207DAC00E6BC33 /* Trailer1.png */; };
+		FCBB80CB17207E2100E6BC33 /* Trailer2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCBB80CA17207E2100E6BC33 /* Trailer2ViewController.m */; };
+		FCBB80CE17207E4600E6BC33 /* Trailer3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCBB80CD17207E4600E6BC33 /* Trailer3ViewController.m */; };
 		FCC0C2D71713A53E0095FF1E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC0C2D61713A53E0095FF1E /* UIKit.framework */; };
 		FCC0C2D91713A53E0095FF1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC0C2D81713A53E0095FF1E /* Foundation.framework */; };
 		FCC0C2DB1713A53E0095FF1E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC0C2DA1713A53E0095FF1E /* CoreGraphics.framework */; };
@@ -26,6 +33,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FCBB80BF17207CFD00E6BC33 /* Trailer2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Trailer2.mp4; sourceTree = "<group>"; };
+		FCBB80C017207CFD00E6BC33 /* Trailer3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Trailer3.mp4; sourceTree = "<group>"; };
+		FCBB80C317207D1500E6BC33 /* Trailer2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Trailer2.png; sourceTree = "<group>"; };
+		FCBB80C417207D1500E6BC33 /* Trailer3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Trailer3.png; sourceTree = "<group>"; };
+		FCBB80C717207DAC00E6BC33 /* Trailer1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Trailer1.png; sourceTree = "<group>"; };
+		FCBB80C917207E2100E6BC33 /* Trailer2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Trailer2ViewController.h; sourceTree = "<group>"; };
+		FCBB80CA17207E2100E6BC33 /* Trailer2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Trailer2ViewController.m; sourceTree = "<group>"; };
+		FCBB80CC17207E4600E6BC33 /* Trailer3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Trailer3ViewController.h; sourceTree = "<group>"; };
+		FCBB80CD17207E4600E6BC33 /* Trailer3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Trailer3ViewController.m; sourceTree = "<group>"; };
 		FCC0C2D31713A53E0095FF1E /* MyMovies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMovies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCC0C2D61713A53E0095FF1E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FCC0C2D81713A53E0095FF1E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -110,6 +126,11 @@
 		FCC0C2DD1713A53E0095FF1E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FCBB80C717207DAC00E6BC33 /* Trailer1.png */,
+				FCBB80C317207D1500E6BC33 /* Trailer2.png */,
+				FCBB80C417207D1500E6BC33 /* Trailer3.png */,
+				FCBB80BF17207CFD00E6BC33 /* Trailer2.mp4 */,
+				FCBB80C017207CFD00E6BC33 /* Trailer3.mp4 */,
 				FCC0C3011713A7F40095FF1E /* 7272.png */,
 				FCC0C3021713A7F40095FF1E /* 114114.png */,
 				FCC0C3031713A7F40095FF1E /* trailer1.mp4 */,
@@ -129,6 +150,10 @@
 			children = (
 				FCC0C30A1713AC850095FF1E /* Trailer1ViewController.h */,
 				FCC0C30B1713AC850095FF1E /* Trailer1ViewController.m */,
+				FCBB80C917207E2100E6BC33 /* Trailer2ViewController.h */,
+				FCBB80CA17207E2100E6BC33 /* Trailer2ViewController.m */,
+				FCBB80CC17207E4600E6BC33 /* Trailer3ViewController.h */,
+				FCBB80CD17207E4600E6BC33 /* Trailer3ViewController.m */,
 			);
 			name = Trailers;
 			sourceTree = "<group>";
@@ -193,6 +218,11 @@
 				FCC0C3041713A7F40095FF1E /* 7272.png in Resources */,
 				FCC0C3051713A7F40095FF1E /* 114114.png in Resources */,
 				FCC0C3061713A7F40095FF1E /* trailer1.mp4 in Resources */,
+				FCBB80C117207CFD00E6BC33 /* Trailer2.mp4 in Resources */,
+				FCBB80C217207CFD00E6BC33 /* Trailer3.mp4 in Resources */,
+				FCBB80C517207D1500E6BC33 /* Trailer2.png in Resources */,
+				FCBB80C617207D1500E6BC33 /* Trailer3.png in Resources */,
+				FCBB80C817207DAC00E6BC33 /* Trailer1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,6 +237,8 @@
 				FCC0C2E71713A53E0095FF1E /* MyMoviesAppDelegate.m in Sources */,
 				FCC0C2F31713A53E0095FF1E /* MyMoviesViewController.m in Sources */,
 				FCC0C30C1713AC850095FF1E /* Trailer1ViewController.m in Sources */,
+				FCBB80CB17207E2100E6BC33 /* Trailer2ViewController.m in Sources */,
+				FCBB80CE17207E4600E6BC33 /* Trailer3ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,6 +359,7 @@
 				FCC0C2F81713A53E0095FF1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
